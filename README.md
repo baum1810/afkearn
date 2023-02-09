@@ -9,4 +9,6 @@ This is a tool to automate the ads of https://flow.tk/ which is a free robux gen
 3. start the programm
 4. enjoy the programm
 
+### this is still in development so it may have some bugs if it gets stuck just restart it
+
 ### i dont take any responsibility for damage done with the programm it's for educational purposes
