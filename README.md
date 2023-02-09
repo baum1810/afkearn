@@ -6,7 +6,9 @@ This is a tool to automate the ads of [Flow.TK](https://flow.tk)
 ## setup
 1. type into your console `pip install undetected_chromedriver`
 2. create a account at https://flow.tk/signup?ref=DarkAirNight
-3. get the cookie out of the dev tools under Applications and than cookies and replace the text YOURCOOKIE with your flow.tk cookie
+3. Type Ctrl+Shift+i once signed in then follow the gifs
+https://i.imgur.com/2UgVRWQ.gif
+https://i.imgur.com/i9uyy2N.gif
 4. start the programm
 5. enjoy the programm
 
