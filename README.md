@@ -1,6 +1,6 @@
 # flowi
 
-This is a tool to automate the ads of https://flow.tk/ which is a free robux generator which works by you watching ads 
+This is a tool to automate the ads of [Flow.TK](https://flow.tk)
 
 
 ## setup
