@@ -8,7 +8,7 @@ This is a tool to automate the ads of [Flow.TK](https://flow.tk)
 2. create a account at https://flow.tk/signup?ref=DarkAirNight
 3. Type Ctrl+Shift+i once signed in then follow the gifs
 ![alt text](https://i.imgur.com/2UgVRWQ.gif)
-https://i.imgur.com/i9uyy2N.gif
+![alt text](https://i.imgur.com/i9uyy2N.gif)
 4. start the programm
 5. enjoy the programm
 
