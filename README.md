@@ -23,5 +23,4 @@ Copy and paste the cookie into the .py file
 
 ### I dont take any responsibility for damage done with the program it's for educational purposes only
 
-
-Thanks to [Vision](https://www.youtube.com/channel/UCfxt_5pa3uWfO2RQYbfBlNw) for beta testing and adding to the README
+### Thanks to [Vision](https://www.youtube.com/channel/UCfxt_5pa3uWfO2RQYbfBlNw) for beta testing and adding to the README
