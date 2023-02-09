@@ -33,7 +33,6 @@ def main():
     time.sleep(2)
 
     if "https://bstlar.com" in driver.current_url:
-        print("test")
         for i in range(3):
             try:
                 tabs = driver.window_handles
