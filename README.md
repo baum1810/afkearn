@@ -9,6 +9,7 @@ This is a tool to automate the ads of [Flow.TK](https://flow.tk)
 3. Type Ctrl+Shift+i once signed in then follow the gifs
 ![alt text](https://i.imgur.com/2UgVRWQ.gif)
 ![alt text](https://i.imgur.com/i9uyy2N.gif)
+![alt text](https://i.imgur.com/T7slvtg.gif)
 4. start the programm
 5. enjoy the programm
 
