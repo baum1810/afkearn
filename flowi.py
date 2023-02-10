@@ -16,7 +16,6 @@ cookie = "YOURCOOKIE"
 # dont touch the shit under this line if u dont know what you are doing
 
 # cookie check
-target = "AskPython"
 if "s%" not in cookie:
     print("YOU NEED TO IMPORT YOUR FLOW.TK COOKIE FOR THIS TO WORK! GOTO https://github.com/baum1810/flowi#setup")
     time.sleep(100)
