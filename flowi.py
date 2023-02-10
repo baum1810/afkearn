@@ -14,7 +14,13 @@ cookie = "YOURCOOKIE"
 
 
 # dont touch the shit under this line if u dont know what you are doing
-options = uc.ChromeOptions()
+
+# cookie check
+target = "AskPython"
+if "s%" not in cookie:
+    print("YOU NEED TO IMPORT YOUR FLOW.TK COOKIE FOR THIS TO WORK! GOTO https://github.com/baum1810/flowi#setup")
+    time.sleep(100)
+else: options = uc.ChromeOptions()
 driver = uc.Chrome()
 driver.get('https://flow.tk/')
 driver.add_cookie({'name' : 'COOKIE', 'value' : cookie})
