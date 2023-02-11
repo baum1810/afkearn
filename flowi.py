@@ -6,7 +6,8 @@ from selenium.webdriver.common.by import By
 
 #add your cookie here
 cookie = "YOURCOOKIE"
-
+#domain of flow here they sometimes change the domain
+domain = "https://flownew.vercel.app/"
 
 
 
@@ -16,9 +17,9 @@ cookie = "YOURCOOKIE"
 # dont touch the shit under this line if u dont know what you are doing
 options = uc.ChromeOptions()
 driver = uc.Chrome()
-driver.get('https://flow.tk/')
+driver.get(domain)
 driver.add_cookie({'name' : 'COOKIE', 'value' : cookie})
-driver.get('https://flow.tk')
+driver.get(domain)
 links = 0
 
 def main():
@@ -46,8 +47,6 @@ def main():
                 tabs = driver.window_handles
                 driver.switch_to.window(tabs[1])
                 driver.close()
-
-
             except:pass
         for i in range(3):
             try:
@@ -96,5 +95,3 @@ def main():
 
 while True:
     main()
-
-
