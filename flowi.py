@@ -1,11 +1,10 @@
 from os import system
 import time
 import undetected_chromedriver as uc
-import requests
 from selenium.webdriver.common.by import By
 
 #add your cookie here
-cookie = "YOURCOOKIE"
+cookie = "YOURCOOKIEHERE"
 #domain of flow here they sometimes change the domain
 domain = "https://flownew.vercel.app/"
 
@@ -23,14 +22,19 @@ driver.get(domain)
 links = 0
 
 def main():
+    driver.get(domain)
     global  links
     system("cls")
     print(f"Links: {links}")
     time.sleep(2)
     driver.execute_script('document.getElementById("generate").click()')
     time.sleep(2)
-
-    driver.execute_script("document.querySelector('.btn.btn-primary.btn-block').click();")
+    try:
+        driver.execute_script("document.querySelector('.btn.btn-primary.btn-block').click();")
+    except:
+        while "Too many requests, please try again later." in driver.page_source:
+            time.sleep(10)
+            driver.get(domain)
     time.sleep(2)
 
     if "https://bstlar.com" in driver.current_url:
@@ -79,6 +83,7 @@ def main():
 
         tabs = driver.window_handles
         driver.switch_to.window(tabs[0])
+        time.sleep(10)
         while not "Unlock progress: 3 /" in driver.page_source:
             time.sleep(0.1)
         try:
