@@ -38,7 +38,7 @@ def main():
                 driver.get(domain)
         time.sleep(2)
         if "https://bstlar.com/error-404" in driver.current_url:
-               driver.get(domain) 
+               main() 
         if "https://bstlar.com" in driver.current_url:
             for i in range(3):
                 try:
