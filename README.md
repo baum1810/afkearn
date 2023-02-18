@@ -10,15 +10,11 @@ This is a tool to automate the ads of [Flow.TK](https://flow.tk)
 4. Ctrl+Shift+i once signed in
 
 Click on the following
-![alt text](https://i.imgur.com/2UgVRWQ.gif)
-Then copy this
-
-![alt text](https://i.imgur.com/i9uyy2N.gif)
-
+![alt text](https://i.imgur.com/uQtiVNo.gif)
 Copy and paste the cookie into the .py file
 ![alt text](https://i.imgur.com/T7slvtg.gif)
 5. Launch and enjoy!
-
+# [Flowi Support and more](https://discord.gg/5Csg8bEP7K)
 ### This is still in development so it may have some bugs if it gets stuck just restart it
 
 ### I dont take any responsibility for damage done with the program it's for educational purposes only
