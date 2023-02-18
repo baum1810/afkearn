@@ -37,7 +37,8 @@ def main():
                 time.sleep(10)
                 driver.get(domain)
         time.sleep(2)
-    
+        if "https://bstlar.com/error-404" in driver.current_url:
+               driver.get(domain) 
         if "https://bstlar.com" in driver.current_url:
             for i in range(3):
                 try:
@@ -81,7 +82,7 @@ def main():
                     driver.switch_to.window(tabs[1])
                     driver.close()
                 except:pass
-    
+
             tabs = driver.window_handles
             driver.switch_to.window(tabs[0])
             time.sleep(10)
