@@ -8,9 +8,8 @@ This is a tool to automate the ads of [Flow.TK](https://flow.tk)
 2. Type into your console `pip install undetected_chromedriver`
 3. [Create a account using my ref](https://flownew.vercel.app/signup?ref=DarkAirNight) (it helps fund this project)
 4. Ctrl+Shift+i once signed in
-
-Click on the following
-![alt text](https://i.imgur.com/uQtiVNo.gif)
+5. Goto Applications, click on flow
+6. Find COOKIE and copy the value
 Copy and paste the cookie into the .py file
 ![alt text](https://i.imgur.com/T7slvtg.gif)
 5. Launch and enjoy!
